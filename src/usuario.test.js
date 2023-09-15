@@ -22,8 +22,8 @@ describe('Testes para a classe Usuario', () => {
   });
 
   test('setNome atualiza o nome corretamente', () => {
-    usuario.Nome = 'Bob';
-    expect(usuario.Nome).toBe('Bob');
+    usuario.Nome = 'Greice';
+    expect(usuario.Nome).toBe('Greice');
   });
 
   test('getContato retorna o contato correto', () => {
@@ -31,8 +31,8 @@ describe('Testes para a classe Usuario', () => {
   });
 
   test('setContato atualiza o contato corretamente', () => {
-    usuario.Contato = 'bob@email.com';
-    expect(usuario.Contato).toBe('bob@email.com');
+    usuario.Contato = 'greice@email.com';
+    expect(usuario.Contato).toBe('greice@email.com');
   });
 
   test('getTipo retorna o tipo correto', () => {
