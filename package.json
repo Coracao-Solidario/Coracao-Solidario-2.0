@@ -1,0 +1,14 @@
+{
+  "name": "projetocoracaosolidario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "doador.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Elvira Bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
